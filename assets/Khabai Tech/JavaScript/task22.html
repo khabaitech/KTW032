@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 22: Largest Number Check || Khabai Tech</title>
+</head>
+<body>
+    <p id="para">Hello</p>
+    <script>
+        var x=window.prompt("Enter 1st Number");
+        y=window.prompt("Enter 2nd Number");
+        z=window.prompt("Enter 3rd Number");
+        var num;
+        if (x>y && x>z){
+            num="X is largest.";
+        }
+        else if(y>x && y>z){
+            num="Y is largest.";
+        }
+        else{
+            num="Z is largest.";
+        }
+        document.getElementById('para').innerHTML=num;
+    </script>
+</body>
+</html>
